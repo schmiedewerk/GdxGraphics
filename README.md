@@ -9,18 +9,28 @@ out of the way. (Definitely useful when not prototyping too...)
 ##Quick Example
 ###Setup
 create: graphics = new Graphics(virtualWidth, virtualHeight, maxSpriteCount);
+
 render: graphics.draw();
+
 resize: graphics.onResize(width, height);
+
 dispose: graphics.dispose();
 
 ###Usage
 Sprite sprite = graphics.sprite();
+
 sprite.layer(1); // higher layer -> drawn on top
+
 sprite.region(pixel); // use 1x1 white pixel TextureRegion
+
 sprite.size(10, 5); // now a 10x5 rectangle
+
 sprite.position(mouseX - 5, mouseY - 2.5f); // place rectangle centered around mouse
+
 sprite.origin(5, 2.5f); // to rotate around the center
+
 sprite.rotation(45); // 45 degrees
+
 sprite.color(.8f, .2f, .2f, 1); // red!
 
 // sprite is now automatically rendered
