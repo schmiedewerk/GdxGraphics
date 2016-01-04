@@ -36,6 +36,7 @@ sprite.color(.8f, .2f, .2f, 1); // red!
 // sprite is now automatically rendered
 
 // after a while, when you don't need the sprite anymore:
+
 sprite.dispose();
 
 ##Overview
