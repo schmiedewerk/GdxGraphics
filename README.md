@@ -1,3 +1,4 @@
+##About
 A simple graphics extension for [LibGDX](https://github.com/libGDX/libGDX).
 
 Allows for quick prototyping without having to worry about assets just yet.
