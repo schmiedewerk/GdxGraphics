@@ -1,5 +1,5 @@
 ##About
-A simple graphics extension for [LibGDX](https://github.com/libGDX/libGDX).
+A simple graphics extension for [libGDX](https://github.com/libGDX/libGDX).
 
 Allows for quick prototyping without having to worry about assets just yet.
 
@@ -73,3 +73,6 @@ The Sprite and Graphics class are both kept to their essential core.
 This allows for quick and easy additions and variations depending on your use case.
 
 (examples: in progress)
+
+#License
+This extension is licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0.html), meaning you can use it free of charge, without strings attached in commercial and non-commercial projects.
