@@ -11,9 +11,10 @@ import de.schmiedewerk.reddit.gdxgraphicssample.graphics.Sprite;
  */
 public class GdxGraphicsHelloWorld extends ApplicationAdapter {
 
-    private final float virtualWidth = 640;
-    private final float virtualHeight = 480;
-    private final int maxSpriteCount = 1000;
+    public static final float virtualWidth = 640;
+    public static final float virtualHeight = 480;
+    public static final int maxSpriteCount = 1000;
+
     private Graphics graphics;
 
     private Texture texture;

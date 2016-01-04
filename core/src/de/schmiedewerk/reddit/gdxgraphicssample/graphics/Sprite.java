@@ -1,5 +1,6 @@
 package de.schmiedewerk.reddit.gdxgraphicssample.graphics;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Pool;
 
@@ -92,4 +93,18 @@ public class Sprite implements Pool.Poolable {
         b = 1;
         a = 1;
     }
+
+    // ----- Core End
+
+    public void rotate(float amount) {
+        this.rotation += amount;
+    }
+
+    public void color(Color color) {
+        this.r = color.r;
+        this.g = color.g;
+        this.b = color.b;
+        this.a = color.a;
+    }
+
 }

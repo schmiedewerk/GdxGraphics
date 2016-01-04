@@ -28,8 +28,6 @@ public class Graphics implements Disposable {
 
     private final Comparator<Sprite> layerComparator;
 
-    private final Vector2 tmp = new Vector2();
-
     public Graphics(float virtualWidth, float virtualHeight, int maxSpriteCount) {
         this.batch = new SpriteBatch();
         this.camera = new OrthographicCamera();
@@ -130,4 +128,14 @@ public class Graphics implements Disposable {
     public void dispose() {
         batch.dispose();
     }
+
+    // ----- Core End
+
+    private final Vector2 tmp = new Vector2();
+
+    public Vector2 unproject(float screenX, float screenY) {
+        tmp.set(screenX, screenY);
+        return viewport.unproject(tmp);
+    }
+
 }
