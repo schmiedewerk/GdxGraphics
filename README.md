@@ -47,6 +47,8 @@ Graphics handles the rendering while Sprite is the render data container.
 The main use case is using a 1x1 white texture(region) that can be easily positioned,
 resized, rotated and colored. (see quick example above)
 
+However, you can use your regular images just as easily.
+
 ##Graphics
 - sprite(): allows for quick creation of a sprite
 - draw(): handles the sorting, filtering and drawing of all active sprites
