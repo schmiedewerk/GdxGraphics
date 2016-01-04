@@ -40,6 +40,7 @@ public class GdxGraphicsHelloWorld extends ApplicationAdapter {
     @Override
     public void dispose() {
         graphics.dispose();
+        texture.dispose();
     }
 
 }
