@@ -6,6 +6,9 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import de.schmiedewerk.reddit.gdxgraphicssample.graphics.Graphics;
 import de.schmiedewerk.reddit.gdxgraphicssample.graphics.Sprite;
 
+/**
+ * Created by /u/schmiedewerkgames @schmiedewerk on 04.01.2016.
+ */
 public class GdxGraphicsHelloWorld extends ApplicationAdapter {
 
     private final float virtualWidth = 640;

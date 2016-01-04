@@ -13,6 +13,6 @@ public class SpritePool extends Pool<Sprite> {
 
     @Override
     protected Sprite newObject() {
-        return  new Sprite();
+        return new Sprite();
     }
 }
